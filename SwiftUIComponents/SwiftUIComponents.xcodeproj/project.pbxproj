@@ -20,6 +20,7 @@
 		6AEC634D2BBAB37B00FCEE99 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 6AEC634C2BBAB37B00FCEE99 /* Algorithms */; };
 		6AEC634F2BBAB77D00FCEE99 /* ListHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC634E2BBAB77D00FCEE99 /* ListHomeScreen.swift */; };
 		6AEC63522BBAB94000FCEE99 /* ScrollViewExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC63512BBAB94000FCEE99 /* ScrollViewExample1.swift */; };
+		6AEC63552BBABEF300FCEE99 /* GridViewExample1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC63542BBABEF300FCEE99 /* GridViewExample1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6AEC63492BBAAFC900FCEE99 /* ListExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample1.swift; sourceTree = "<group>"; };
 		6AEC634E2BBAB77D00FCEE99 /* ListHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeScreen.swift; sourceTree = "<group>"; };
 		6AEC63512BBAB94000FCEE99 /* ScrollViewExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample1.swift; sourceTree = "<group>"; };
+		6AEC63542BBABEF300FCEE99 /* GridViewExample1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewExample1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		6AEC63182BBAA8D400FCEE99 /* SwiftUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				6AEC63532BBABEC300FCEE99 /* GridViews */,
 				6AEC63502BBAB91800FCEE99 /* ScrollViews */,
 				6AEC63482BBAAF3C00FCEE99 /* ListExamples */,
 				6AEC63432BBAA8EE00FCEE99 /* ToggleButton */,
@@ -166,6 +169,14 @@
 				6AEC63512BBAB94000FCEE99 /* ScrollViewExample1.swift */,
 			);
 			path = ScrollViews;
+			sourceTree = "<group>";
+		};
+		6AEC63532BBABEC300FCEE99 /* GridViews */ = {
+			isa = PBXGroup;
+			children = (
+				6AEC63542BBABEF300FCEE99 /* GridViewExample1.swift */,
+			);
+			path = GridViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 				6AEC63452BBAA8FF00FCEE99 /* ToggleButton.swift in Sources */,
 				6AEC634A2BBAAFC900FCEE99 /* ListExample1.swift in Sources */,
 				6AEC631A2BBAA8D400FCEE99 /* SwiftUIComponentsApp.swift in Sources */,
+				6AEC63552BBABEF300FCEE99 /* GridViewExample1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

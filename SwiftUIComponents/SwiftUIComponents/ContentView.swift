@@ -23,6 +23,19 @@ struct ContentView: View {
                     } label: {
                         Text("List")
                     }
+                    
+                    NavigationLink {
+                        ScrollViewExample1()
+                    } label: {
+                        Text("Scroll View")
+                    }
+                    
+                    NavigationLink {
+                        GridViewExample1()
+                    } label: {
+                        Text("Grid View")
+                    }
+                    
                 }
             }
             .navigationTitle("UI Components")

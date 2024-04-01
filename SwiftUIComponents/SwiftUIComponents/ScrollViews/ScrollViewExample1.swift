@@ -52,6 +52,12 @@ struct MockViewsData {
         .init(color: .blue),
         .init(color: .gray),
         .init(color: .cyan),
-        .init(color: .orange)
+        .init(color: .orange),
+        .init(color: .red),
+        .init(color: .purple),
+        .init(color: .green),
+        .init(color: .blue),
+        .init(color: .gray),
+        .init(color: .cyan),
     ]
 }
