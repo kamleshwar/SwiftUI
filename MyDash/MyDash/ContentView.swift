@@ -7,15 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    let networkManager: NetworkManageable = NetworkManager()
-    @State var items : [Item] = []
-    
+struct ContentView: View {    
+    @ObservedObject var videModel: ViewModel = ViewModel()
     var body: some View {
         NavigationStack {
             VStack {
                 List {
-                    ForEach(items) { item in
+                    ForEach(videModel.items) { item in
                         Section(item.name) {
                             ForEach(item.items) { subItem in
                                 NavigationLink(value: subItem) {
@@ -25,15 +23,19 @@ struct ContentView: View {
                         }
                     }
                 }
+                .refreshable {
+                    videModel.fetchList()
+                }
                 .navigationDestination(for: SubItem.self, destination: { item in
                     ItemDetails(item: item)
                 })
                 .navigationTitle("Menu")
                 .listStyle(.grouped)
-                .onAppear{
-                    Task {
-                        items = try await networkManager.makeNetworkCall(endpont: .items)
-                    }
+                .task {
+                    videModel.fetchList()
+                }
+                .alert("Something went wrong", isPresented: $videModel.shouldShoError) {
+                    
                 }
             }
         }

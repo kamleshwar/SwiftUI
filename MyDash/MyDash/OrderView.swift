@@ -10,6 +10,7 @@ import SwiftUI
 struct OrderView: View {
     @EnvironmentObject var order: Order
     var body: some View {
+        NavigationStack {
             List {
                 Section {
                     ForEach(order.items) { item in
@@ -26,12 +27,13 @@ struct OrderView: View {
                     NavigationLink("Place Order") {
                         CheckoutView()
                     }
-                    .disabled(order.items.isEmpty)
+                    //.disabled(order.items.isEmpty)
                 }
-        }.navigationTitle("Orders")
-            .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            EditButton()
+            }.navigationTitle("Orders")
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                    EditButton()
+                }
         }
     }
     
