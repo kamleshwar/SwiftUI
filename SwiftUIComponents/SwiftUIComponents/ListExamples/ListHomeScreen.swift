@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ListHomeScreen.swift
 //  SwiftUIComponents
 //
 //  Created by Kamleshwar Dhuria on 4/1/24.
@@ -7,30 +7,29 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ListHomeScreen: View {
     var body: some View {
         NavigationStack {
             VStack {
                 List {
                     NavigationLink {
-                        ToggleButton()
+                        ListExample()
                     } label: {
-                        Text("Toggle Button")
+                        Text("Simple List")
                     }
                     
                     NavigationLink {
-                        ListHomeScreen()
+                        ListExample1()
                     } label: {
-                        Text("List")
+                        Text("Group By")
                     }
                 }
             }
-            .navigationTitle("UI Components")
+            .navigationTitle("List Examples")
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ListHomeScreen()
 }
