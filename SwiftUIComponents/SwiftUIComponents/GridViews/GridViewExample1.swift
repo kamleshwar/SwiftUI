@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Example of Lazy Grids
+
 struct GridViewExample1: View {
     let rows = Array(repeating: GridItem(.flexible(minimum: 150)), count: 2)
     let adaptiveColumn = [GridItem(.adaptive(minimum: 150))]
