@@ -36,6 +36,12 @@ struct ContentView: View {
                         Text("Grid View")
                     }
                     
+                    NavigationLink {
+                        MenuItemViewExample()
+                    } label: {
+                        Text("Menu Item")
+                    }
+                    
                 }
             }
             .navigationTitle("UI Components")
