@@ -41,6 +41,11 @@ struct ContentView: View {
                     } label: {
                         Text("Menu Item")
                     }
+                    NavigationLink {
+                        BGColorExample()
+                    } label: {
+                        Text("BG Color Examples")
+                    }
                     
                 }
             }

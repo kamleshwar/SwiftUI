@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6AD405A82BE758A60055B030 /* MenuItemViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD405A72BE758A60055B030 /* MenuItemViewExample.swift */; };
+		6AD405AA2BE766290055B030 /* BGColorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD405A92BE766290055B030 /* BGColorExample.swift */; };
 		6AEC631A2BBAA8D400FCEE99 /* SwiftUIComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC63192BBAA8D400FCEE99 /* SwiftUIComponentsApp.swift */; };
 		6AEC631C2BBAA8D400FCEE99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC631B2BBAA8D400FCEE99 /* ContentView.swift */; };
 		6AEC631E2BBAA8D600FCEE99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AEC631D2BBAA8D600FCEE99 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		6AD405A72BE758A60055B030 /* MenuItemViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemViewExample.swift; sourceTree = "<group>"; };
+		6AD405A92BE766290055B030 /* BGColorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGColorExample.swift; sourceTree = "<group>"; };
 		6AEC63162BBAA8D400FCEE99 /* SwiftUIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AEC63192BBAA8D400FCEE99 /* SwiftUIComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComponentsApp.swift; sourceTree = "<group>"; };
 		6AEC631B2BBAA8D400FCEE99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,14 @@
 			path = MenuItems;
 			sourceTree = "<group>";
 		};
+		6AD405AB2BE766310055B030 /* BGColors */ = {
+			isa = PBXGroup;
+			children = (
+				6AD405A92BE766290055B030 /* BGColorExample.swift */,
+			);
+			path = BGColors;
+			sourceTree = "<group>";
+		};
 		6AEC630D2BBAA8D400FCEE99 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +130,7 @@
 		6AEC63182BBAA8D400FCEE99 /* SwiftUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				6AD405AB2BE766310055B030 /* BGColors */,
 				6AD405A62BE758960055B030 /* MenuItems */,
 				6AEC63532BBABEC300FCEE99 /* GridViews */,
 				6AEC63502BBAB91800FCEE99 /* ScrollViews */,
@@ -333,6 +344,7 @@
 				6AEC631C2BBAA8D400FCEE99 /* ContentView.swift in Sources */,
 				6AEC634F2BBAB77D00FCEE99 /* ListHomeScreen.swift in Sources */,
 				6AEC63522BBAB94000FCEE99 /* ScrollViewExample1.swift in Sources */,
+				6AD405AA2BE766290055B030 /* BGColorExample.swift in Sources */,
 				6AEC63452BBAA8FF00FCEE99 /* ToggleButton.swift in Sources */,
 				6AD405A82BE758A60055B030 /* MenuItemViewExample.swift in Sources */,
 				6AEC634A2BBAAFC900FCEE99 /* ListExample1.swift in Sources */,
