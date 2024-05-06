@@ -46,6 +46,11 @@ struct ContentView: View {
                     } label: {
                         Text("BG Color Examples")
                     }
+                    NavigationLink {
+                        AlertsExamplesView()
+                    } label: {
+                        Text("Alerts")
+                    }
                     
                 }
             }
