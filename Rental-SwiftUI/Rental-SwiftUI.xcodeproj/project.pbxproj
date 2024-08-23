@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE8514C2BAA81D1008BAA86 /* Rental_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8514B2BAA81D1008BAA86 /* Rental_SwiftUIApp.swift */; };
+		6AE8514E2BAA81D1008BAA86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8514D2BAA81D1008BAA86 /* ContentView.swift */; };
+		6AE851502BAA81D3008BAA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8514F2BAA81D3008BAA86 /* Assets.xcassets */; };
+		6AE851532BAA81D3008BAA86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE851522BAA81D3008BAA86 /* Preview Assets.xcassets */; };
+		6AE8515D2BAA81D3008BAA86 /* Rental_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8515C2BAA81D3008BAA86 /* Rental_SwiftUITests.swift */; };
+		6AE851672BAA81D3008BAA86 /* Rental_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE851662BAA81D3008BAA86 /* Rental_SwiftUIUITests.swift */; };
+		6AE851692BAA81D3008BAA86 /* Rental_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE851682BAA81D3008BAA86 /* Rental_SwiftUIUITestsLaunchTests.swift */; };
+		6AE851772BAA8217008BAA86 /* HouseListings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE851762BAA8217008BAA86 /* HouseListings.swift */; };
+		6AE851792BAA89E7008BAA86 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE851782BAA89E7008BAA86 /* DetailsView.swift */; };
+		6AE8517C2BAA8BB8008BAA86 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8517B2BAA8BB8008BAA86 /* HomeHeader.swift */; };
+		6AE8517E2BAA8EA5008BAA86 /* HomeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8517D2BAA8EA5008BAA86 /* HomeSearchBar.swift */; };
+		6AE851802BAA93A6008BAA86 /* HomeListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8517F2BAA93A6008BAA86 /* HomeListingView.swift */; };
+		6AE851822BAAA890008BAA86 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE851812BAAA890008BAA86 /* BottomBar.swift */; };
+		6AE851842BAAA947008BAA86 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE851832BAAA947008BAA86 /* MapView.swift */; };
+		6AE851862BAAACE4008BAA86 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE851852BAAACE4008BAA86 /* TabBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AE851592BAA81D3008BAA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AE851402BAA81D1008BAA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AE851472BAA81D1008BAA86;
+			remoteInfo = "Rental-SwiftUI";
+		};
+		6AE851632BAA81D3008BAA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AE851402BAA81D1008BAA86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AE851472BAA81D1008BAA86;
+			remoteInfo = "Rental-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AE851482BAA81D1008BAA86 /* Rental-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rental-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE8514B2BAA81D1008BAA86 /* Rental_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental_SwiftUIApp.swift; sourceTree = "<group>"; };
+		6AE8514D2BAA81D1008BAA86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AE8514F2BAA81D3008BAA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AE851522BAA81D3008BAA86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AE851582BAA81D3008BAA86 /* Rental-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rental-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE8515C2BAA81D3008BAA86 /* Rental_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental_SwiftUITests.swift; sourceTree = "<group>"; };
+		6AE851622BAA81D3008BAA86 /* Rental-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rental-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE851662BAA81D3008BAA86 /* Rental_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		6AE851682BAA81D3008BAA86 /* Rental_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rental_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AE851762BAA8217008BAA86 /* HouseListings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListings.swift; sourceTree = "<group>"; };
+		6AE851782BAA89E7008BAA86 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		6AE8517B2BAA8BB8008BAA86 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		6AE8517D2BAA8EA5008BAA86 /* HomeSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchBar.swift; sourceTree = "<group>"; };
+		6AE8517F2BAA93A6008BAA86 /* HomeListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListingView.swift; sourceTree = "<group>"; };
+		6AE851812BAAA890008BAA86 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		6AE851832BAAA947008BAA86 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6AE851852BAAACE4008BAA86 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AE851452BAA81D1008BAA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE851552BAA81D3008BAA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE8515F2BAA81D3008BAA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AE8513F2BAA81D1008BAA86 = {
+			isa = PBXGroup;
+			children = (
+				6AE8514A2BAA81D1008BAA86 /* Rental-SwiftUI */,
+				6AE8515B2BAA81D3008BAA86 /* Rental-SwiftUITests */,
+				6AE851652BAA81D3008BAA86 /* Rental-SwiftUIUITests */,
+				6AE851492BAA81D1008BAA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AE851492BAA81D1008BAA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AE851482BAA81D1008BAA86 /* Rental-SwiftUI.app */,
+				6AE851582BAA81D3008BAA86 /* Rental-SwiftUITests.xctest */,
+				6AE851622BAA81D3008BAA86 /* Rental-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AE8514A2BAA81D1008BAA86 /* Rental-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				6AE8517A2BAA8BA6008BAA86 /* Views */,
+				6AE851752BAA8206008BAA86 /* Model */,
+				6AE8514B2BAA81D1008BAA86 /* Rental_SwiftUIApp.swift */,
+				6AE8514D2BAA81D1008BAA86 /* ContentView.swift */,
+				6AE851782BAA89E7008BAA86 /* DetailsView.swift */,
+				6AE8514F2BAA81D3008BAA86 /* Assets.xcassets */,
+				6AE851512BAA81D3008BAA86 /* Preview Content */,
+				6AE851852BAAACE4008BAA86 /* TabBarView.swift */,
+			);
+			path = "Rental-SwiftUI";
+			sourceTree = "<group>";
+		};
+		6AE851512BAA81D3008BAA86 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AE851522BAA81D3008BAA86 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AE8515B2BAA81D3008BAA86 /* Rental-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AE8515C2BAA81D3008BAA86 /* Rental_SwiftUITests.swift */,
+			);
+			path = "Rental-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		6AE851652BAA81D3008BAA86 /* Rental-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AE851662BAA81D3008BAA86 /* Rental_SwiftUIUITests.swift */,
+				6AE851682BAA81D3008BAA86 /* Rental_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = "Rental-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		6AE851752BAA8206008BAA86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AE851762BAA8217008BAA86 /* HouseListings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AE8517A2BAA8BA6008BAA86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AE8517B2BAA8BB8008BAA86 /* HomeHeader.swift */,
+				6AE8517D2BAA8EA5008BAA86 /* HomeSearchBar.swift */,
+				6AE8517F2BAA93A6008BAA86 /* HomeListingView.swift */,
+				6AE851812BAAA890008BAA86 /* BottomBar.swift */,
+				6AE851832BAAA947008BAA86 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AE851472BAA81D1008BAA86 /* Rental-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE8516C2BAA81D3008BAA86 /* Build configuration list for PBXNativeTarget "Rental-SwiftUI" */;
+			buildPhases = (
+				6AE851442BAA81D1008BAA86 /* Sources */,
+				6AE851452BAA81D1008BAA86 /* Frameworks */,
+				6AE851462BAA81D1008BAA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rental-SwiftUI";
+			productName = "Rental-SwiftUI";
+			productReference = 6AE851482BAA81D1008BAA86 /* Rental-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AE851572BAA81D3008BAA86 /* Rental-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE8516F2BAA81D3008BAA86 /* Build configuration list for PBXNativeTarget "Rental-SwiftUITests" */;
+			buildPhases = (
+				6AE851542BAA81D3008BAA86 /* Sources */,
+				6AE851552BAA81D3008BAA86 /* Frameworks */,
+				6AE851562BAA81D3008BAA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE8515A2BAA81D3008BAA86 /* PBXTargetDependency */,
+			);
+			name = "Rental-SwiftUITests";
+			productName = "Rental-SwiftUITests";
+			productReference = 6AE851582BAA81D3008BAA86 /* Rental-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6AE851612BAA81D3008BAA86 /* Rental-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE851722BAA81D3008BAA86 /* Build configuration list for PBXNativeTarget "Rental-SwiftUIUITests" */;
+			buildPhases = (
+				6AE8515E2BAA81D3008BAA86 /* Sources */,
+				6AE8515F2BAA81D3008BAA86 /* Frameworks */,
+				6AE851602BAA81D3008BAA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE851642BAA81D3008BAA86 /* PBXTargetDependency */,
+			);
+			name = "Rental-SwiftUIUITests";
+			productName = "Rental-SwiftUIUITests";
+			productReference = 6AE851622BAA81D3008BAA86 /* Rental-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AE851402BAA81D1008BAA86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6AE851472BAA81D1008BAA86 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6AE851572BAA81D3008BAA86 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6AE851472BAA81D1008BAA86;
+					};
+					6AE851612BAA81D3008BAA86 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6AE851472BAA81D1008BAA86;
+					};
+				};
+			};
+			buildConfigurationList = 6AE851432BAA81D1008BAA86 /* Build configuration list for PBXProject "Rental-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AE8513F2BAA81D1008BAA86;
+			productRefGroup = 6AE851492BAA81D1008BAA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AE851472BAA81D1008BAA86 /* Rental-SwiftUI */,
+				6AE851572BAA81D3008BAA86 /* Rental-SwiftUITests */,
+				6AE851612BAA81D3008BAA86 /* Rental-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AE851462BAA81D1008BAA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE851532BAA81D3008BAA86 /* Preview Assets.xcassets in Resources */,
+				6AE851502BAA81D3008BAA86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE851562BAA81D3008BAA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE851602BAA81D3008BAA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AE851442BAA81D1008BAA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE8514E2BAA81D1008BAA86 /* ContentView.swift in Sources */,
+				6AE851802BAA93A6008BAA86 /* HomeListingView.swift in Sources */,
+				6AE851792BAA89E7008BAA86 /* DetailsView.swift in Sources */,
+				6AE8514C2BAA81D1008BAA86 /* Rental_SwiftUIApp.swift in Sources */,
+				6AE851822BAAA890008BAA86 /* BottomBar.swift in Sources */,
+				6AE851772BAA8217008BAA86 /* HouseListings.swift in Sources */,
+				6AE8517E2BAA8EA5008BAA86 /* HomeSearchBar.swift in Sources */,
+				6AE851842BAAA947008BAA86 /* MapView.swift in Sources */,
+				6AE851862BAAACE4008BAA86 /* TabBarView.swift in Sources */,
+				6AE8517C2BAA8BB8008BAA86 /* HomeHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE851542BAA81D3008BAA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE8515D2BAA81D3008BAA86 /* Rental_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE8515E2BAA81D3008BAA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE851692BAA81D3008BAA86 /* Rental_SwiftUIUITestsLaunchTests.swift in Sources */,
+				6AE851672BAA81D3008BAA86 /* Rental_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AE8515A2BAA81D3008BAA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AE851472BAA81D1008BAA86 /* Rental-SwiftUI */;
+			targetProxy = 6AE851592BAA81D3008BAA86 /* PBXContainerItemProxy */;
+		};
+		6AE851642BAA81D3008BAA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AE851472BAA81D1008BAA86 /* Rental-SwiftUI */;
+			targetProxy = 6AE851632BAA81D3008BAA86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6AE8516A2BAA81D3008BAA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AE8516B2BAA81D3008BAA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AE8516D2BAA81D3008BAA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rental-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QSAD4G9QY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamleshwar.Rental-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AE8516E2BAA81D3008BAA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rental-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4QSAD4G9QY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamleshwar.Rental-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AE851702BAA81D3008BAA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QSAD4G9QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamleshwar.Rental-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rental-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rental-SwiftUI";
+			};
+			name = Debug;
+		};
+		6AE851712BAA81D3008BAA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QSAD4G9QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamleshwar.Rental-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rental-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rental-SwiftUI";
+			};
+			name = Release;
+		};
+		6AE851732BAA81D3008BAA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QSAD4G9QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamleshwar.Rental-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rental-SwiftUI";
+			};
+			name = Debug;
+		};
+		6AE851742BAA81D3008BAA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QSAD4G9QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamleshwar.Rental-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rental-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AE851432BAA81D1008BAA86 /* Build configuration list for PBXProject "Rental-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE8516A2BAA81D3008BAA86 /* Debug */,
+				6AE8516B2BAA81D3008BAA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE8516C2BAA81D3008BAA86 /* Build configuration list for PBXNativeTarget "Rental-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE8516D2BAA81D3008BAA86 /* Debug */,
+				6AE8516E2BAA81D3008BAA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE8516F2BAA81D3008BAA86 /* Build configuration list for PBXNativeTarget "Rental-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE851702BAA81D3008BAA86 /* Debug */,
+				6AE851712BAA81D3008BAA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE851722BAA81D3008BAA86 /* Build configuration list for PBXNativeTarget "Rental-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE851732BAA81D3008BAA86 /* Debug */,
+				6AE851742BAA81D3008BAA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AE851402BAA81D1008BAA86 /* Project object */;
+}
